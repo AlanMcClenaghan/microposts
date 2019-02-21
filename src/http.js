@@ -28,11 +28,11 @@ class EasyHTTP {
 
     const resData = await response.json();
     return resData;
-   
+
   }
 
-   // Make an HTTP PUT Request
-   async put(url, data) {
+  // Make an HTTP PUT Request
+  async put(url, data) {
     const response = await fetch(url, {
       method: 'PUT',
       headers: {
@@ -40,7 +40,7 @@ class EasyHTTP {
       },
       body: JSON.stringify(data)
     });
-    
+
     const resData = await response.json();
     return resData;
   }
@@ -58,8 +58,6 @@ class EasyHTTP {
     return resData;
   }
 
- }
+}
 
- export const http = new EasyHTTP();
-
- 
+export const http = new EasyHTTP(); 
