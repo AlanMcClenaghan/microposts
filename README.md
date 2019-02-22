@@ -1,3 +1,6 @@
+# Microposts app
+	Webpack & babel Project from Brad Traversy's Modern JavaScript course
+
 ## Microposts app allows users to:
   * Input a post title
   * Input a post body
@@ -7,7 +10,8 @@
   * Users can delete posts
     * Users will be prompted to confirm or cancel deletion.
 
-### Installation
+
+## Installation
 
 Install the dependencies
 
