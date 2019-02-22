@@ -1,6 +1,3 @@
-# Tracalorie app
-Webpack & babel Project from Brad Traversy's Modern JavaScript course
-
 ## Microposts app allows users to:
   * Input a post title
   * Input a post body
